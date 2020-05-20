@@ -1,6 +1,8 @@
 ## TODO
-add DI
-add ViewModel
+add DI<br>
+add ViewModel (separate logic from View)<br>
+add Repositories<br>
+add unit/UI tests<br>
 
 ## Task
 
