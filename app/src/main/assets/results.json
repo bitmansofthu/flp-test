@@ -1,0 +1,2140 @@
+{
+  "Flights": {
+    "SessionKey": "ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26",
+    "Query": {
+      "Country": "GB",
+      "Currency": "GBP",
+      "Locale": "en-gb",
+      "Adults": 1,
+      "Children": 0,
+      "Infants": 0,
+      "OriginPlace": "11235",
+      "DestinationPlace": "13554",
+      "OutboundDate": "2018-09-12",
+      "InboundDate": "2018-09-19",
+      "LocationSchema": "Default",
+      "CabinClass": "Economy",
+      "GroupPricing": false
+    },
+    "Status": "UpdatesComplete",
+    "Itineraries": [
+      {
+        "OutboundLegId": {
+          "Id": "11235-1809120855--32302-0-13554-1809121035",
+          "SegmentIds": [
+            3
+          ],
+          "OriginStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "DestinationStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "Departure": "2018-09-12T08:55:00",
+          "Arrival": "2018-09-12T10:35:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2103",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "13554-1809190845--32302-0-11235-1809191025",
+          "SegmentIds": [
+            4
+          ],
+          "OriginStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "DestinationStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "Departure": "2018-09-19T08:45:00",
+          "Arrival": "2018-09-19T10:25:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2102",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2499522,
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/flyb.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+448717002000",
+                "Type": "Airline"
+              }
+            ],
+            "QuoteAgeInMinutes": 147,
+            "Price": 102,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fflyb%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d102.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_c9e0dea351761df748fe552648ed3150%2ceu-central-1.prod_ffc48451f68666c45544dd7f229afb5d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a43%3a03"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2628363,
+                "Name": "GotoGate",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/gtuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 105.53,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fgtuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d105.53%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_5a3fbf0c9c675766a78ecce5c0d59042%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3874827,
+                "Name": "BudgetAir",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/s1uk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 109,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fs1uk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d109.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_08c6e6649f3061a1165ddd7312931cf7%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4036107,
+                "Name": "Travelgenio",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tguk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 111.89,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2ftguk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d111.89%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_b105eae8f08494a02b92343c63ac2c94%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a29"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4499211,
+                "Name": "Expedia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/xpuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 13,
+            "Price": 117.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fxpuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_b354e36c2ca467d0d026d47b19b165b4%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T19%3a56%3a55"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3165195,
+                "Name": "lastminute.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/lmuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 117.57,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2flmuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.57%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_890cdf25b0c7420e1f53bdff15fd9107%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3579051,
+                "Name": "Travelpack",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/pack.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+442085854043",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 119.84,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fpack%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d119.84%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_96046afa2efa71a0c8338f9c4285ef81%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2365707,
+                "Name": "ebookers",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 120.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2febuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d120.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_a7c172033c04927b8d73972d526746a0%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2185995,
+                "Name": "Trip.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 121,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fctuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d121.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d982b26523bdbf09af504c3469cab965%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3934928,
+                "Name": "Kiwi.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 123,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fskyp%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d123.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_adf2fc11e0aa269750a10a377eaf1c4e%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3503883,
+                "Name": "Opodo",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/opuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 124.3,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fopuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d124.30%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d4d58d29585670f7da23dbbbbe2b0b37%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a30"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2043147,
+                "Name": "Bravofly",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0203 499 5179",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 125.39,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fbfuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d125.39%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_e2d17548f3422f06029af156f6b30424%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a31"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26/booking",
+          "Body": "OutboundLegId=11235-1809120855--32302-0-13554-1809121035&InboundLegId=13554-1809190845--32302-0-11235-1809191025",
+          "Method": "PUT"
+        },
+        "FormattedData": "Flybe: 102 GBP
+        GotoGate: 105.53 GBP
+        BudgetAir: 109 GBP
+        Travelgenio: 111.89 GBP
+        Expedia: 117.24 GBP
+        lastminute.com: 117.57 GBP
+        Travelpack: 119.84 GBP
+        ebookers: 120.24 GBP
+        Trip.com: 121 GBP
+        Kiwi.com: 123 GBP
+        Opodo: 124.3 GBP
+        Bravofly: 125.39 GBP
+        "
+      },
+      {
+        "OutboundLegId": {
+          "Id": "11235-1809120855--32302-0-13554-1809121035",
+          "SegmentIds": [
+            3
+          ],
+          "OriginStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "DestinationStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "Departure": "2018-09-12T08:55:00",
+          "Arrival": "2018-09-12T10:35:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2103",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "13554-1809192045--32302-0-11235-1809192225",
+          "SegmentIds": [
+            5
+          ],
+          "OriginStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "DestinationStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "Departure": "2018-09-19T20:45:00",
+          "Arrival": "2018-09-19T22:25:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2110",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2499522,
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/flyb.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+448717002000",
+                "Type": "Airline"
+              }
+            ],
+            "QuoteAgeInMinutes": 147,
+            "Price": 102,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fflyb%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d102.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_c9e0dea351761df748fe552648ed3150%2ceu-central-1.prod_ccd3aee3bb5ff4519180fc79dc70bdbf%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a43%3a03"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2628363,
+                "Name": "GotoGate",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/gtuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 105.53,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fgtuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d105.53%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_0170722ed9579e3e4bf33748234b3206%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3874827,
+                "Name": "BudgetAir",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/s1uk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 109,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fs1uk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d109.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_3c08896f63208b12b45688feb120de8d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4036107,
+                "Name": "Travelgenio",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tguk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 111.89,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2ftguk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d111.89%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_76c0b1828219ad8f6236daadd26ad224%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a29"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4499211,
+                "Name": "Expedia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/xpuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 13,
+            "Price": 117.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fxpuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_c072f46ce1a9643769b8f2e71c4ad3e5%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T19%3a56%3a55"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3165195,
+                "Name": "lastminute.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/lmuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 117.57,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2flmuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.57%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_a5ef2c53f9ddc0211eb5a7f046c893c0%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3579051,
+                "Name": "Travelpack",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/pack.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+442085854043",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 119.84,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fpack%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d119.84%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_5b2d90a26c4fa9d356bcfc0216abe131%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2365707,
+                "Name": "ebookers",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 120.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2febuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d120.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_77a92060595e22ee57a506fa8b0b526e%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2185995,
+                "Name": "Trip.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 121,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fctuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d121.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_0cd588a6bacd09c31ee6b0dd83929ce3%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3934928,
+                "Name": "Kiwi.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 123,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fskyp%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d123.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d176a7dc7e71be7a547002bd018b30b4%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3503883,
+                "Name": "Opodo",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/opuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 124.3,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fopuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d124.30%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_c24804059ac0de3e144f4276807af3c5%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a30"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2043147,
+                "Name": "Bravofly",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0203 499 5179",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 125.39,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fbfuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2103%7c11235%7c2018-09-12T08%3a55%7c13554%7c2018-09-12T10%3a35%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d125.39%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_2ea25c971cd8c83405c4232ff304a22d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a31"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26/booking",
+          "Body": "OutboundLegId=11235-1809120855--32302-0-13554-1809121035&InboundLegId=13554-1809192045--32302-0-11235-1809192225",
+          "Method": "PUT"
+        },
+        "FormattedData": "Flybe: 102 GBP
+        GotoGate: 105.53 GBP
+        BudgetAir: 109 GBP
+        Travelgenio: 111.89 GBP
+        Expedia: 117.24 GBP
+        lastminute.com: 117.57 GBP
+        Travelpack: 119.84 GBP
+        ebookers: 120.24 GBP
+        Trip.com: 121 GBP
+        Kiwi.com: 123 GBP
+        Opodo: 124.3 GBP
+        Bravofly: 125.39 GBP
+        "
+      },
+      {
+        "OutboundLegId": {
+          "Id": "11235-1809121550--32302-0-13554-1809121730",
+          "SegmentIds": [
+            6
+          ],
+          "OriginStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "DestinationStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "Departure": "2018-09-12T15:50:00",
+          "Arrival": "2018-09-12T17:30:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2107",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "13554-1809190845--32302-0-11235-1809191025",
+          "SegmentIds": [
+            4
+          ],
+          "OriginStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "DestinationStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "Departure": "2018-09-19T08:45:00",
+          "Arrival": "2018-09-19T10:25:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2102",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2499522,
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/flyb.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+448717002000",
+                "Type": "Airline"
+              }
+            ],
+            "QuoteAgeInMinutes": 147,
+            "Price": 102,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fflyb%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d102.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_f1bd080f66cdc3de4470034824484eba%2ceu-central-1.prod_ffc48451f68666c45544dd7f229afb5d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a43%3a03"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2628363,
+                "Name": "GotoGate",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/gtuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 105.53,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fgtuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d105.53%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_3b59e4e0e7db4d118ffb4dac65517e4d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3874827,
+                "Name": "BudgetAir",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/s1uk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 109,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fs1uk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d109.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_f41c4f464f60de1121a25bc22f81bced%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4036107,
+                "Name": "Travelgenio",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tguk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 111.89,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2ftguk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d111.89%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d6032d7852b42a5ebd40a3032b1e8ba2%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a29"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3165195,
+                "Name": "lastminute.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/lmuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 117.57,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2flmuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.57%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_040db196777bdbb161e950160863a487%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3579051,
+                "Name": "Travelpack",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/pack.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+442085854043",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 119.84,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fpack%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d119.84%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_32e4e06efabdf62052faeb7d089669c2%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2185995,
+                "Name": "Trip.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 121,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fctuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d121.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_206adeefded48bae17ab8a8344c56b50%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3934928,
+                "Name": "Kiwi.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 123,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fskyp%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d123.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d64986f86397aef5680cd2238022e486%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3503883,
+                "Name": "Opodo",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/opuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 124.3,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fopuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d124.30%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_221057ba1c7c64f87b70b95bc10a4e9c%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a30"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2043147,
+                "Name": "Bravofly",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0203 499 5179",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 125.39,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fbfuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d125.39%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_ace98af637d27b8ddfe9fc2170b92e37%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a31"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4499211,
+                "Name": "Expedia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/xpuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 13,
+            "Price": 130.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fxpuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d130.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_55670d21092ae85fb96cf10b66c77279%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T19%3a56%3a55"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2365707,
+                "Name": "ebookers",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 133.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2febuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d133.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_3948f8dda9ed5f820b33a560dd3111d0%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a38"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26/booking",
+          "Body": "OutboundLegId=11235-1809121550--32302-0-13554-1809121730&InboundLegId=13554-1809190845--32302-0-11235-1809191025",
+          "Method": "PUT"
+        },
+        "FormattedData": "Flybe: 102 GBP
+        GotoGate: 105.53 GBP
+        BudgetAir: 109 GBP
+        Travelgenio: 111.89 GBP
+        lastminute.com: 117.57 GBP
+        Travelpack: 119.84 GBP
+        Trip.com: 121 GBP
+        Kiwi.com: 123 GBP
+        Opodo: 124.3 GBP
+        Bravofly: 125.39 GBP
+        Expedia: 130.24 GBP
+        ebookers: 133.24 GBP
+        "
+      },
+      {
+        "OutboundLegId": {
+          "Id": "11235-1809121550--32302-0-13554-1809121730",
+          "SegmentIds": [
+            6
+          ],
+          "OriginStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "DestinationStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "Departure": "2018-09-12T15:50:00",
+          "Arrival": "2018-09-12T17:30:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2107",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "13554-1809192045--32302-0-11235-1809192225",
+          "SegmentIds": [
+            5
+          ],
+          "OriginStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "DestinationStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "Departure": "2018-09-19T20:45:00",
+          "Arrival": "2018-09-19T22:25:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2110",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2499522,
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/flyb.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+448717002000",
+                "Type": "Airline"
+              }
+            ],
+            "QuoteAgeInMinutes": 147,
+            "Price": 102,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fflyb%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d102.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_f1bd080f66cdc3de4470034824484eba%2ceu-central-1.prod_ccd3aee3bb5ff4519180fc79dc70bdbf%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a43%3a03"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2628363,
+                "Name": "GotoGate",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/gtuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 105.53,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fgtuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d105.53%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_819f56379b3a4c824ea3d6ce48649865%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3874827,
+                "Name": "BudgetAir",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/s1uk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 109,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fs1uk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d109.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_e5b38db0cd5b09b4d9fc61671b356f25%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4036107,
+                "Name": "Travelgenio",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tguk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 111.89,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2ftguk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d111.89%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_3f10d78bc92157737fcea33260726f72%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a29"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3165195,
+                "Name": "lastminute.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/lmuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 117.57,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2flmuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.57%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_774b32bef5d582819fabfb445c783296%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3579051,
+                "Name": "Travelpack",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/pack.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+442085854043",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 119.84,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fpack%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d119.84%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_1d7a7e8b32c93b71750e697d9ba04a60%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2185995,
+                "Name": "Trip.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 121,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fctuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d121.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_6ca83dbf81dd3af69f31b4016095c064%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3934928,
+                "Name": "Kiwi.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 123,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fskyp%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d123.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_d5a1f4dbabf8d99f58c43dd2f9acb245%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3503883,
+                "Name": "Opodo",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/opuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 124.3,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fopuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d124.30%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_aa5b18720c0638e92e2d7005be70b38f%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a30"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2043147,
+                "Name": "Bravofly",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0203 499 5179",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 125.39,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fbfuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d125.39%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_e0f7372b99bf0117593e8110ce3cabac%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a31"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4499211,
+                "Name": "Expedia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/xpuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 13,
+            "Price": 130.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fxpuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d130.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_fcd2e977cd027a02858dc3268c2703ab%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T19%3a56%3a55"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2365707,
+                "Name": "ebookers",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 133.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2febuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2107%7c11235%7c2018-09-12T15%3a50%7c13554%7c2018-09-12T17%3a30%7c100%2cflight%7c-32302%7c2110%7c13554%7c2018-09-19T20%3a45%7c11235%7c2018-09-19T22%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d133.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_cedd5e1f5ae505c67eb7e8fc45788164%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a38"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26/booking",
+          "Body": "OutboundLegId=11235-1809121550--32302-0-13554-1809121730&InboundLegId=13554-1809192045--32302-0-11235-1809192225",
+          "Method": "PUT"
+        },
+        "FormattedData": "Flybe: 102 GBP
+        GotoGate: 105.53 GBP
+        BudgetAir: 109 GBP
+        Travelgenio: 111.89 GBP
+        lastminute.com: 117.57 GBP
+        Travelpack: 119.84 GBP
+        Trip.com: 121 GBP
+        Kiwi.com: 123 GBP
+        Opodo: 124.3 GBP
+        Bravofly: 125.39 GBP
+        Expedia: 130.24 GBP
+        ebookers: 133.24 GBP
+        "
+      },
+      {
+        "OutboundLegId": {
+          "Id": "11235-1809121820--32302-0-13554-1809122000",
+          "SegmentIds": [
+            7
+          ],
+          "OriginStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "DestinationStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "Departure": "2018-09-12T18:20:00",
+          "Arrival": "2018-09-12T20:00:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2109",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "13554-1809190845--32302-0-11235-1809191025",
+          "SegmentIds": [
+            4
+          ],
+          "OriginStation": {
+            "Id": 13554,
+            "ParentId": 4698,
+            "Code": "LHR",
+            "Type": "Airport",
+            "Name": "London Heathrow"
+          },
+          "DestinationStation": {
+            "Id": 11235,
+            "ParentId": 2343,
+            "Code": "EDI",
+            "Type": "Airport",
+            "Name": "Edinburgh"
+          },
+          "Departure": "2018-09-19T08:45:00",
+          "Arrival": "2018-09-19T10:25:00",
+          "Duration": 100,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2102",
+              "CarrierId": 885,
+              "Carrier": {
+                "Id": 885,
+                "Code": "BE",
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+                "DisplayCode": "BE"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2499522,
+                "Name": "Flybe",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/flyb.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+448717002000",
+                "Type": "Airline"
+              }
+            ],
+            "QuoteAgeInMinutes": 147,
+            "Price": 102,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fflyb%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d102.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_4e9945471c27de2567262802b8ab69f9%2ceu-central-1.prod_ffc48451f68666c45544dd7f229afb5d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a43%3a03"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2628363,
+                "Name": "GotoGate",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/gtuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 105.53,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fgtuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d105.53%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_2f0bcab223cce07f94a2d6c6efc76e02%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3874827,
+                "Name": "BudgetAir",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/s1uk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 109,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fs1uk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d109.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_bcdd4b28ce210349a24550e04ac5af9f%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4036107,
+                "Name": "Travelgenio",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tguk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 111.89,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2ftguk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d111.89%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_dc81462dfa2a3b0e10cbf53ffbe425ec%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a29"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3165195,
+                "Name": "lastminute.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/lmuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 117.57,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2flmuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d117.57%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_a43fa23cd02f0bf010823ef0b7959ad5%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a27"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3579051,
+                "Name": "Travelpack",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/pack.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+442085854043",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 119.84,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fpack%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d119.84%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_84c32cd6eee7444e1a4bcdf6606c891d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a26"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2185995,
+                "Name": "Trip.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 121,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fctuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d121.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_cb0000f5f60c6755c2943cf2e09d0647%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a38"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3934928,
+                "Name": "Kiwi.com",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 123,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fskyp%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d123.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_2aafa2fb3d63b24e3afefb4da2bd24a2%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3503883,
+                "Name": "Opodo",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/opuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 124.3,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fopuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d124.30%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_3c810b97bafd28ea528a9440260462c9%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a30"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2043147,
+                "Name": "Bravofly",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0203 499 5179",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 0,
+            "Price": 125.39,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fbfuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d125.39%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_09ba9ffc93eed7e0f82ff1d123022a6d%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T20%3a09%3a31"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4499211,
+                "Name": "Expedia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/xpuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 13,
+            "Price": 130.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2fxpuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d130.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-central-1.prod_a3b34baa04b47d16c8c47550e85026ef%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T19%3a56%3a55"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2365707,
+                "Name": "ebookers",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 144,
+            "Price": 133.24,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=zOm%2f6FCg6gDOE4rdoXmlE7hM3pD0U74mG5ftPhdP2gYHYNfl2GcrqQa0epbDDGLd&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fUK%2fen-gb%2fGBP%2febuk%2f2%2f11235.13554.2018-09-12%2c13554.11235.2018-09-19%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32302%7c2109%7c11235%7c2018-09-12T18%3a20%7c13554%7c2018-09-12T20%3a00%7c100%2cflight%7c-32302%7c2102%7c13554%7c2018-09-19T08%3a45%7c11235%7c2018-09-19T10%3a25%7c100%26carriers%3d-32302%26operators%3d-32302%2c-32302%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d133.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3df04afe25-eeb6-4346-92dd-e100082c147f%26deeplink_ids%3deu-west-1.prod_6a5ca8c1ffc6d8b78bde26c4bc8a5313%26commercial_filters%3dfalse%26q_datetime_utc%3d2018-09-05T17%3a45%3a38"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/ad2530b6671e41038be2bf0f04293573_rrsqbjcb_06a13f0a788e803fcc56e78802891a26/booking",
+          "Body": "OutboundLegId=11235-1809121820--32302-0-13554-1809122000&InboundLegId=13554-1809190845--32302-0-11235-1809191025",
+          "Method": "PUT"
+        },
+        "FormattedData": "Flybe: 102 GBP
+        GotoGate: 105.53 GBP
+        BudgetAir: 109 GBP
+        Travelgenio: 111.89 GBP
+        lastminute.com: 117.57 GBP
+        Travelpack: 119.84 GBP
+        Trip.com: 121 GBP
+        Kiwi.com: 123 GBP
+        Opodo: 124.3 GBP
+        Bravofly: 125.39 GBP
+        Expedia: 130.24 GBP
+        ebookers: 133.24 GBP
+        "
+      }
+    ],
+    "Legs": [
+      {
+        "Id": "11235-1809122035--32480-0-13554-1809122155",
+        "SegmentIds": [
+          0
+        ],
+        "OriginStation": {
+          "Id": 11235,
+          "ParentId": 2343,
+          "Code": "EDI",
+          "Type": "Airport",
+          "Name": "Edinburgh"
+        },
+        "DestinationStation": {
+          "Id": 13554,
+          "ParentId": 4698,
+          "Code": "LHR",
+          "Type": "Airport",
+          "Name": "London Heathrow"
+        },
+        "Departure": "2018-09-12T20:35:00",
+        "Arrival": "2018-09-12T21:55:00",
+        "Duration": 80,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 881,
+            "Code": "BA",
+            "Name": "British Airways",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+            "DisplayCode": "BA"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 881,
+            "Code": "BA",
+            "Name": "British Airways",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+            "DisplayCode": "BA"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "1465",
+            "CarrierId": 881,
+            "Carrier": {
+              "Id": 881,
+              "Code": "BA",
+              "Name": "British Airways",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+              "DisplayCode": "BA"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "11235-1809120855--32302-0-13554-1809121035",
+        "SegmentIds": [
+          3
+        ],
+        "OriginStation": {
+          "Id": 11235,
+          "ParentId": 2343,
+          "Code": "EDI",
+          "Type": "Airport",
+          "Name": "Edinburgh"
+        },
+        "DestinationStation": {
+          "Id": 13554,
+          "ParentId": 4698,
+          "Code": "LHR",
+          "Type": "Airport",
+          "Name": "London Heathrow"
+        },
+        "Departure": "2018-09-12T08:55:00",
+        "Arrival": "2018-09-12T10:35:00",
+        "Duration": 100,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "2103",
+            "CarrierId": 885,
+            "Carrier": {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "11235-1809121550--32302-0-13554-1809121730",
+        "SegmentIds": [
+          6
+        ],
+        "OriginStation": {
+          "Id": 11235,
+          "ParentId": 2343,
+          "Code": "EDI",
+          "Type": "Airport",
+          "Name": "Edinburgh"
+        },
+        "DestinationStation": {
+          "Id": 13554,
+          "ParentId": 4698,
+          "Code": "LHR",
+          "Type": "Airport",
+          "Name": "London Heathrow"
+        },
+        "Departure": "2018-09-12T15:50:00",
+        "Arrival": "2018-09-12T17:30:00",
+        "Duration": 100,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "2107",
+            "CarrierId": 885,
+            "Carrier": {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "11235-1809121820--32302-0-13554-1809122000",
+        "SegmentIds": [
+          7
+        ],
+        "OriginStation": {
+          "Id": 11235,
+          "ParentId": 2343,
+          "Code": "EDI",
+          "Type": "Airport",
+          "Name": "Edinburgh"
+        },
+        "DestinationStation": {
+          "Id": 13554,
+          "ParentId": 4698,
+          "Code": "LHR",
+          "Type": "Airport",
+          "Name": "London Heathrow"
+        },
+        "Departure": "2018-09-12T18:20:00",
+        "Arrival": "2018-09-12T20:00:00",
+        "Duration": 100,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 885,
+            "Code": "BE",
+            "Name": "Flybe",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+            "DisplayCode": "BE"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "2109",
+            "CarrierId": 885,
+            "Carrier": {
+              "Id": 885,
+              "Code": "BE",
+              "Name": "Flybe",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+              "DisplayCode": "BE"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "11235-1809121005--32480-0-13554-1809121140",
+        "SegmentIds": [
+          11
+        ],
+        "OriginStation": {
+          "Id": 11235,
+          "ParentId": 2343,
+          "Code": "EDI",
+          "Type": "Airport",
+          "Name": "Edinburgh"
+        },
+        "DestinationStation": {
+          "Id": 13554,
+          "ParentId": 4698,
+          "Code": "LHR",
+          "Type": "Airport",
+          "Name": "London Heathrow"
+        },
+        "Departure": "2018-09-12T10:05:00",
+        "Arrival": "2018-09-12T11:40:00",
+        "Duration": 95,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 881,
+            "Code": "BA",
+            "Name": "British Airways",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+            "DisplayCode": "BA"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 881,
+            "Code": "BA",
+            "Name": "British Airways",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+            "DisplayCode": "BA"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "1441",
+            "CarrierId": 881,
+            "Carrier": {
+              "Id": 881,
+              "Code": "BA",
+              "Name": "British Airways",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+              "DisplayCode": "BA"
+            }
+          }
+        ]
+      }
+    ],
+    "Segments": [
+      {
+        "Id": 0,
+        "OriginStation": 11235,
+        "DestinationStation": 13554,
+        "DepartureDateTime": "2018-09-12T20:35:00",
+        "ArrivalDateTime": "2018-09-12T21:55:00",
+        "Carrier": 881,
+        "OperatingCarrier": 881,
+        "Duration": 80,
+        "FlightNumber": "1465",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 1,
+        "OriginStation": 13554,
+        "DestinationStation": 11235,
+        "DepartureDateTime": "2018-09-19T20:55:00",
+        "ArrivalDateTime": "2018-09-19T22:15:00",
+        "Carrier": 881,
+        "OperatingCarrier": 881,
+        "Duration": 80,
+        "FlightNumber": "1460",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 2,
+        "OriginStation": 13554,
+        "DestinationStation": 11235,
+        "DepartureDateTime": "2018-09-19T07:05:00",
+        "ArrivalDateTime": "2018-09-19T08:25:00",
+        "Carrier": 881,
+        "OperatingCarrier": 881,
+        "Duration": 80,
+        "FlightNumber": "1432",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 3,
+        "OriginStation": 11235,
+        "DestinationStation": 13554,
+        "DepartureDateTime": "2018-09-12T08:55:00",
+        "ArrivalDateTime": "2018-09-12T10:35:00",
+        "Carrier": 885,
+        "OperatingCarrier": 885,
+        "Duration": 100,
+        "FlightNumber": "2103",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 4,
+        "OriginStation": 13554,
+        "DestinationStation": 11235,
+        "DepartureDateTime": "2018-09-19T08:45:00",
+        "ArrivalDateTime": "2018-09-19T10:25:00",
+        "Carrier": 885,
+        "OperatingCarrier": 885,
+        "Duration": 100,
+        "FlightNumber": "2102",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      }
+    ],
+    "Carriers": [
+      {
+        "Id": 881,
+        "Code": "BA",
+        "Name": "British Airways",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/BA.png",
+        "DisplayCode": "BA"
+      },
+      {
+        "Id": 885,
+        "Code": "BE",
+        "Name": "Flybe",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/BE.png",
+        "DisplayCode": "BE"
+      },
+      {
+        "Id": 1033,
+        "Code": "EI",
+        "Name": "Aer Lingus",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/EI.png",
+        "DisplayCode": "EI"
+      },
+      {
+        "Id": 1653,
+        "Code": "RE",
+        "Name": "Stobart Air",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/RE.png",
+        "DisplayCode": "RE"
+      },
+      {
+        "Id": 1324,
+        "Code": "KL",
+        "Name": "KLM",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/KL.png",
+        "DisplayCode": "KL"
+      }
+    ],
+    "Agents": [
+      {
+        "Id": 3934928,
+        "Name": "Kiwi.com",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/skyp.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 2185995,
+        "Name": "Trip.com",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/ctuk.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 2043147,
+        "Name": "Bravofly",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/bfuk.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "BookingNumber": "0203 499 5179",
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 1963108,
+        "Name": "Mytrip",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/at24.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "BookingNumber": "+448447747881",
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 2365707,
+        "Name": "ebookers",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/ebuk.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "Type": "TravelAgent"
+      }
+    ],
+    "Places": [
+      {
+        "Id": 11235,
+        "ParentId": 2343,
+        "Code": "EDI",
+        "Type": "Airport",
+        "Name": "Edinburgh"
+      },
+      {
+        "Id": 13554,
+        "ParentId": 4698,
+        "Code": "LHR",
+        "Type": "Airport",
+        "Name": "London Heathrow"
+      },
+      {
+        "Id": 9889,
+        "ParentId": 876,
+        "Code": "BHD",
+        "Type": "Airport",
+        "Name": "Belfast City"
+      },
+      {
+        "Id": 11154,
+        "ParentId": 2277,
+        "Code": "DUB",
+        "Type": "Airport",
+        "Name": "Dublin"
+      },
+      {
+        "Id": 16422,
+        "ParentId": 7062,
+        "Code": "SNN",
+        "Type": "Airport",
+        "Name": "Shannon"
+      }
+    ],
+    "Currencies": [
+      {
+        "Code": "GBP",
+        "Symbol": "£",
+        "ThousandsSeparator": ",",
+        "DecimalSeparator": ".",
+        "SymbolOnLeft": true,
+        "SpaceBetweenAmountAndSymbol": false,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "EUR",
+        "Symbol": "€",
+        "ThousandsSeparator": ".",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "CHF",
+        "Symbol": "CHF",
+        "ThousandsSeparator": "'",
+        "DecimalSeparator": ".",
+        "SymbolOnLeft": true,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      }
+    ],
+    "ServiceQuery": {
+      "DateTime": "2018-09-05T20:09:43.7531251Z"
+    }
+  },
+  "Query": {
+    "Country": "GB",
+    "Currency": "GBP",
+    "Locale": "en-gb",
+    "Adults": 1,
+    "Children": 0,
+    "Infants": 0,
+    "OriginPlace": "11235",
+    "DestinationPlace": "13554",
+    "OutboundDate": "2018-09-12",
+    "InboundDate": "2018-09-19",
+    "LocationSchema": "Default",
+    "CabinClass": "Economy",
+    "GroupPricing": false
+  }
+}

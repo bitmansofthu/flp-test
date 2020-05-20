@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="@dimen/card_radius">
+
+        <LinearLayout
+            android:id="@+id/legs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/outboundleg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/outboundleg_thumbnail"
+                    android:layout_width="@dimen/airline_logo_width"
+                    android:layout_height="@dimen/airline_logo_height"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/outboundleg_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/outboundleg_thumbnail"
+                    android:layout_alignTop="@id/outboundleg_thumbnail"
+                    style="@style/ResultCardMainText"/>
+
+                <TextView
+                    android:id="@+id/outboundleg_stations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_toRightOf="@id/outboundleg_thumbnail"
+                    android:layout_alignBottom="@id/outboundleg_thumbnail"
+                    style="@style/ResultCardSubText"/>
+
+                <TextView
+                    android:id="@+id/outboundleg_stops"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_alignTop="@id/outboundleg_thumbnail"
+                    style="@style/ResultCardMainText"/>
+
+                <TextView
+                    android:id="@+id/outboundleg_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="3dp"
+                    android:layout_alignBottom="@id/outboundleg_thumbnail"
+                    style="@style/ResultCardSubText"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/inboundleg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/inboundleg_thumbnail"
+                    android:layout_width="@dimen/airline_logo_width"
+                    android:layout_height="@dimen/airline_logo_height"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/inboundleg_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/inboundleg_thumbnail"
+                    android:layout_alignTop="@id/inboundleg_thumbnail"
+                    style="@style/ResultCardMainText"/>
+
+                <TextView
+                    android:id="@+id/inboundleg_stations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/inboundleg_thumbnail"
+                    android:layout_alignBottom="@id/inboundleg_thumbnail"
+                    style="@style/ResultCardSubText"/>
+
+                <TextView
+                    android:id="@+id/inboundleg_stops"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@id/inboundleg_thumbnail"
+                    style="@style/ResultCardMainText"/>
+
+                <TextView
+                    android:id="@+id/inboundleg_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="3dp"
+                    android:layout_alignBottom="@id/inboundleg_thumbnail"
+                    style="@style/ResultCardSubText"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/separatorLine" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/quoteage_face"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/face_neutral"/>
+
+                <TextView
+                    android:id="@+id/quoteage_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/quoteage_face"
+                    style="@style/ResultCardMainText"/>
+
+                <TextView
+                    android:id="@+id/pricetag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    style="@style/ResultCardMainText"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
