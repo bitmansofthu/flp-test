@@ -1,5 +1,6 @@
 ## TODO
 add DI
+add ViewModel
 
 ## Task
 
